@@ -1,4 +1,4 @@
-网页访问：https://theater-of-domination.github.io/TheSecondEruptionEnhancedEdition/
+在线访问：https://theater-of-domination.github.io/TheSecondEruptionEnhancedEdition/
 
 <details>
 <summary>中文</summary>
