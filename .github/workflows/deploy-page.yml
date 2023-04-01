@@ -1,0 +1,20 @@
+name: deploy page
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'lib/build/**'
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      # 检出仓库代码
+      - uses: actions/checkout@v2
+
+      # https://github.com/marketplace/actions/github-pages-action
+      - name: Push to doc repository
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./lib/build
