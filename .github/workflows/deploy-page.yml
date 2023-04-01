@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # https://github.com/marketplace/actions/github-pages-action
-      - name: Push to doc repository
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: peaceiris/actions-gh-pages@v3
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./lib/build
