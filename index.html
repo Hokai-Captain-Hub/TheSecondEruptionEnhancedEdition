@@ -10,7 +10,7 @@
 
 <body>
 <div id="b" class="container-fluid text-center" style="height: 100%;">
-  <div class="row align-items-center" style="height:65%;">
+  <div class="row align-items-center" style="height:100%;">
     <div class="row">
       <div class="row p-3">
         <div class="col">
@@ -47,7 +47,9 @@
             网页版改造：<a class="link" href="https://github.com/ForteScarlet" target="_blank">ForteScarlet</a>
           </p>
           <p>
-            问题反馈：<a class="link" href="https://github.com/Theater-of-Domination/TheSecondEruptionEnhancedEdition/issues" target="_blank">GitHub</a>
+            问题反馈：<a class="link"
+                        href="https://github.com/Theater-of-Domination/TheSecondEruptionEnhancedEdition/issues"
+                        target="_blank">GitHub</a>
           </p>
           <p class="unselect">2023-04-01 ♥</p>
         </div>
@@ -58,6 +60,21 @@
 </body>
 </html>
 
+<script>
+    function randomGet(arr) {
+        return arr[Math.floor((Math.random()*arr.length))]
+    }
+
+    const bks = [
+        "img/book/1012/30/0001.jpg",
+        "img/book/1012/65/0001.jpg",
+        "img/book/1012/65/0005.jpg",
+        "img/book/1012/65/0008.jpg",
+        "img/book/1012/65/0020.jpg",
+    ]
+    document.body.style.backgroundImage = `url("${randomGet(bks)}")`
+</script>
+
 <style>
     html, body {
         height: 100%;
@@ -65,7 +82,7 @@
 
 
     body {
-        background-image: url("img/book/1012/30/0001.jpg");
+        /*background-image: url("img/book/1012/30/0001.jpg");*/
         background-size: 125%;
         background-position: center;
         background-repeat: no-repeat;
@@ -100,7 +117,7 @@
     }
 
     .btn {
-        -webkit-user-drag:none;
+        -webkit-user-drag: none;
     }
 
 </style>
