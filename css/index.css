@@ -151,9 +151,18 @@
 }
 
 .home-index-container {
+    /* 防止阴影出现尖角 */
+    border-radius: 0 0 12px 12px;
     width: 12rem;
-    height: 14rem;
-    margin: 15px 5px 0 5px;
+    /*height: 14rem;*/
+    margin: 18px 5px 0 5px;
+}
+
+.home-index-container {
+    transition-duration: 0.6s;
+}
+.home-index-container:hover {
+    box-shadow: 1px 15px 30px rgba(0, 0, 0, 0.8);
 }
 
 .home-index-banner {
