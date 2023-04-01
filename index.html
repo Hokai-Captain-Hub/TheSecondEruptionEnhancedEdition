@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-cn">
 <head>
   <meta charset="UTF-8">
   <title id='page-title'>第二次崩坏</title>
@@ -9,24 +9,33 @@
 </head>
 
 <body>
-<div class="container-fluid text-center" style="height: 100%;">
+<div id="b" class="container-fluid text-center" style="height: 100%;">
   <div class="row align-items-center" style="height:65%;">
     <div class="row">
-      <div class="row p-2">
+      <div class="row p-3">
         <div class="col">
-          <a href="cn" class="btn btn-outline-primary" tabindex="-1" role="button" aria-disabled="true">中文</a>
+          <a href="lang/cn?lang=zh&vlang=zh" class="btn btn-outline-info btn-lg" tabindex="-1" role="button"
+             aria-disabled="true">
+            <b>中文</b>
+          </a>
         </div>
       </div>
 
-      <div class="row p-2">
+      <div class="row p-3">
         <div class="col">
-          <a href="jp" class="btn btn-outline-primary" tabindex="-1" role="button" aria-disabled="true">日本語</a>
+          <a href="lang/jp?lang=jp&vlang=jp" class="btn btn-outline-info btn-lg" tabindex="-1" role="button"
+             aria-disabled="true">
+            <b>日本語</b>
+          </a>
         </div>
       </div>
 
-      <div class="row p-2">
+      <div class="row p-3">
         <div class="col">
-          <a href="en" class="btn btn-outline-primary" tabindex="-1" role="button" aria-disabled="true">English</a>
+          <a href="0.html?lang=en&vlang=zh" class="btn btn-outline-info btn-lg" tabindex="-1" role="button"
+             aria-disabled="true">
+            <b>English</b>
+          </a>
         </div>
       </div>
     </div>
@@ -37,7 +46,27 @@
 
 <style>
     html, body {
-
         height: 100%;
     }
+
+
+    body {
+        /*pointer-events: none;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*position: absolute;*/
+        /*filter: blur(3px);*/
+
+        background-image: url("img/book/1012/30/0001.jpg");
+        background-size: 125%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+
+    #b {
+        backdrop-filter: contrast(70%) brightness(50%) blur(6px) saturate(160%);
+    }
+
 </style>
