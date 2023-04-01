@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/Theater-of-Domination/TheSecondEruptionEnhancedEdition/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Theater-of-Domination/TheSecondEruptionEnhancedEdition/actions/workflows/pages/pages-build-deployment)
+
 在线访问：https://theater-of-domination.github.io/TheSecondEruptionEnhancedEdition/
 
 <details>
@@ -17,7 +19,7 @@
 - 日语版本图源：[Google Drive](https://drive.google.com/drive/folders/1k-4hZvFf1d4nvZqXUPMOxT5mDK80kQuu)
 - 日语版本翻译：[Twitter@しこやん](https://twitter.com/ccyn3rd)
 - 图片查看器：[Viewer.js](https://fengyuanchen.github.io/viewerjs)
-- 代码仓库：[Github](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition)
+- 代码仓库：[GitHub](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition)
 
 ### 注意
 
@@ -72,7 +74,7 @@ This is an enhanced edition of [Second Eruption](https://manga.honkaiimpact3.com
 - Japanese version source: [Google Drive](https://drive.google.com/drive/folders/1k-4hZvFf1d4nvZqXUPMOxT5mDK80kQuu)
 - Japanese version translator: [Twitter@しこやん](https://twitter.com/ccyn3rd)
 - Image viewer: [Viewer.js](https://fengyuanchen.github.io/viewerjs)
-- Code repository: [Github](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition)
+- Code repository: [GitHub](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition)
 
 ### Notes
 
@@ -94,3 +96,5 @@ This is an enhanced edition of [Second Eruption](https://manga.honkaiimpact3.com
 ### 声明
 
 本仓库内所有内容与资源均来自 [源仓库 Xrysnow/TheSecondEruptionEnhancedEdition](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition) 及其发布的资源。
+
+> _部分内容存在微调以适应静态页面发布，例如超链接指向和额外添加的简单index页面等。_
