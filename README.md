@@ -90,3 +90,7 @@ This is an enhanced edition of [Second Eruption](https://manga.honkaiimpact3.com
 - See settings for more features
 
 </details>
+
+### 声明
+
+本仓库内所有内容与资源均来自 [源仓库 Xrysnow/TheSecondEruptionEnhancedEdition](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition) 及其发布的资源。
