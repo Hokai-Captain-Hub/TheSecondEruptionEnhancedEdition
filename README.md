@@ -1,5 +1,4 @@
-
-中文页面访问：https://hokai-captain-hub.github.io/TheSecondEruptionEnhancedEdition/cn/
+网页访问：https://theater-of-domination.github.io/TheSecondEruptionEnhancedEdition/
 
 <details>
 <summary>中文</summary>
