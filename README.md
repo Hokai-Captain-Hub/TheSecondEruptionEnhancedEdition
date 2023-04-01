@@ -1,5 +1,5 @@
 
-中文页面访问：
+中文页面访问：https://hokai-captain-hub.github.io/TheSecondEruptionEnhancedEdition/cn/
 
 <details>
 <summary>中文</summary>
