@@ -97,4 +97,4 @@ This is an enhanced edition of [Second Eruption](https://manga.honkaiimpact3.com
 
 本仓库内所有内容与资源均基于 [源仓库 Xrysnow/TheSecondEruptionEnhancedEdition](https://github.com/Xrysnow/TheSecondEruptionEnhancedEdition) 及其发布的资源。
 
-> _部分网页内容存在微调，例如菜单页增加悬浮阴影效果、调整部分超链接以适应静态页发布等。_
+> **Note** _部分网页内容存在微调，例如菜单页增加悬浮阴影效果、调整部分超链接以适应静态页发布等。_
